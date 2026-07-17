@@ -75,10 +75,15 @@ main {
   display: block;
 }
 
+.story-card {
+  justify-content: flex-start;
+}
+
 .story-block {
   width: 100%;
   max-width: 480px;
-  padding: 96px 40px 96px 44px;
+  padding: 96px 40px 96px 24px;
+  margin-left: 24px;
   border-left: 3px solid var(--main);
 }
 
@@ -94,8 +99,9 @@ main {
 }
 
 .story-line--strong {
-  font-size: 21px;
+  font-size: 26px;
   font-weight: 700;
+  line-height: 1.4;
   color: var(--ink);
 }
 
