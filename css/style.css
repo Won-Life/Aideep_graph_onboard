@@ -62,16 +62,45 @@ main {
 /* ponytail: 카드 이미지 모서리 색을 직접 샘플링한 값 — 순서·이미지 교체 시 같이 갱신 */
 .card-section:nth-child(1) { background: #ffffff; }
 .card-section:nth-child(2) { background: #ffffff; }
-.card-section:nth-child(3) { background: #f5fdec; }
-.card-section:nth-child(4) { background: #d0eefb; }
-.card-section:nth-child(5) { background: #eedbfa; }
-.card-section:nth-child(6) { background: #ffffff; }
+.card-section:nth-child(3) { background: #ffffff; }
+.card-section:nth-child(4) { background: #f5fdec; }
+.card-section:nth-child(5) { background: #d0eefb; }
+.card-section:nth-child(6) { background: #eedbfa; }
+.card-section:nth-child(7) { background: #ffffff; }
 
 .card-img {
   width: 100%;
   max-width: 480px;
   height: auto;
   display: block;
+}
+
+.story-block {
+  width: 100%;
+  max-width: 480px;
+  padding: 96px 40px 96px 44px;
+  border-left: 3px solid var(--main);
+}
+
+.story-line {
+  margin: 0;
+  font-size: 17px;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+.story-line + .story-line {
+  margin-top: 16px;
+}
+
+.story-line--strong {
+  font-size: 21px;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.story-line--strong b {
+  color: var(--main);
 }
 
 .card-intro {
