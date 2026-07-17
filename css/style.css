@@ -289,6 +289,10 @@ main {
   line-height: 1.6;
 }
 
+.cta-sub b {
+  color: var(--ink);
+}
+
 .br-desktop {
   display: none;
 }
