@@ -212,10 +212,14 @@ main {
 }
 
 .shortcut-list li span {
+  flex: 1 1 auto;
+  min-width: 0;
   color: var(--muted);
 }
 
 .shortcut-list li b {
+  flex-shrink: 0;
+  white-space: nowrap;
   color: var(--ink);
   text-align: right;
 }
