@@ -65,6 +65,7 @@ main {
 .card-section:nth-child(3) { background: #f5fdec; }
 .card-section:nth-child(4) { background: #d0eefb; }
 .card-section:nth-child(5) { background: #eedbfa; }
+.card-section:nth-child(6) { background: #ffffff; }
 
 .card-img {
   width: 100%;
@@ -126,6 +127,97 @@ main {
   font-size: 14px;
   line-height: 1.7;
   color: var(--muted);
+}
+
+.usage-guide {
+  width: 100%;
+  max-width: 480px;
+  padding: 72px 32px;
+}
+
+.usage-eyebrow {
+  margin: 0 0 8px;
+  color: var(--main);
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.usage-heading {
+  margin: 0 0 12px;
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--ink);
+}
+
+.usage-desc {
+  margin: 0 0 20px;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--muted);
+}
+
+.node-legend {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 16px;
+  border-radius: 12px;
+  background: var(--surface);
+  margin-bottom: 24px;
+}
+
+.node-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.node-swatch {
+  flex-shrink: 0;
+  width: 40px;
+  height: 26px;
+}
+
+.node-swatch--center {
+  border-radius: 4px;
+  background: #ffffff;
+  border: 1px solid #cfcfcf;
+}
+
+.node-swatch--sub {
+  border-radius: 999px;
+  background: var(--main);
+}
+
+.shortcut-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.shortcut-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--surface);
+  font-size: 14px;
+}
+
+.shortcut-list li:last-child {
+  border-bottom: none;
+}
+
+.shortcut-list li span {
+  color: var(--muted);
+}
+
+.shortcut-list li b {
+  color: var(--ink);
+  text-align: right;
 }
 
 .cta-section {
