@@ -62,10 +62,10 @@ main {
 /* ponytail: 카드 이미지 모서리 색을 직접 샘플링한 값 — 순서·이미지 교체 시 같이 갱신 */
 .card-section:nth-child(1) { background: #ffffff; }
 .card-section:nth-child(2) { background: #ffffff; }
-.card-section:nth-child(3) { background: #ffffff; }
-.card-section:nth-child(4) { background: #f5fdec; }
-.card-section:nth-child(5) { background: #d0eefb; }
-.card-section:nth-child(6) { background: #eedbfa; }
+.card-section:nth-child(3) { background: #f5fdec; }
+.card-section:nth-child(4) { background: #d0eefb; }
+.card-section:nth-child(5) { background: #eedbfa; }
+.card-section:nth-child(6) { background: #ffffff; }
 
 .card-img {
   width: 100%;
