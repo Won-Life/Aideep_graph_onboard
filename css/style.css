@@ -50,6 +50,8 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* 고정된 .gnb(로고+워드마크) 높이(28px 로고 + 16px*2 패딩)만큼 첫 섹션이 가려지지 않게 여백 확보 */
+  padding-top: 72px;
 }
 
 .card-section {
